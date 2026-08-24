@@ -204,7 +204,6 @@ Dataset: [`dair-ai/emotion`](https://huggingface.co/datasets/dair-ai/emotion) (S
 ---
 
 ##  Author
-Hardik Rawat
 
 **Hardik Rawat**
 B.Tech, Computer Science & Engineering (Data Science) — Manipal Institute of Technology, Bengaluru
