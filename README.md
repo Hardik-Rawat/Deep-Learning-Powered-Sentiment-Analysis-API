@@ -2,8 +2,8 @@
 
 An end-to-end deep learning application that reads the emotion inside a sentence — from raw text, through a Bidirectional GRU model, to a live, styled web interface served entirely through FastAPI.
 
-**Live Demo:** [deep-learning-powered-sentiment-analysis.onrender.com](https://deep-learning-powered-sentiment-analysis.onrender.com)
-**Repository:** [github.com/Hardik-Rawat/Deep-Learning-Powered-Sentiment-Analysis-API](https://github.com/Hardik-Rawat/Deep-Learning-Powered-Sentiment-Analysis-API)
+  **Live Demo:** [deep-learning-powered-sentiment-analysis.onrender.com](https://deep-learning-powered-sentiment-analysis.onrender.com)
+  **Repository:** [github.com/Hardik-Rawat/Deep-Learning-Powered-Sentiment-Analysis-API](https://github.com/Hardik-Rawat/Deep-Learning-Powered-Sentiment-Analysis-API)
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.17-orange?logo=tensorflow&logoColor=white)
