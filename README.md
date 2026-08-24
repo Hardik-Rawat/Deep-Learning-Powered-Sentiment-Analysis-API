@@ -1,9 +1,9 @@
-# 🎭 Moodline — Emotion Detection from Text
+#  Moodline — Emotion Detection from Text
 
 An end-to-end deep learning application that reads the emotion inside a sentence — from raw text, through a Bidirectional GRU model, to a live, styled web interface served entirely through FastAPI.
 
-🔗 **Live Demo:** [deep-learning-powered-sentiment-analysis.onrender.com](https://deep-learning-powered-sentiment-analysis.onrender.com)
-💻 **Repository:** [github.com/Hardik-Rawat/Deep-Learning-Powered-Sentiment-Analysis-API](https://github.com/Hardik-Rawat/Deep-Learning-Powered-Sentiment-Analysis-API)
+**Live Demo:** [deep-learning-powered-sentiment-analysis.onrender.com](https://deep-learning-powered-sentiment-analysis.onrender.com)
+**Repository:** [github.com/Hardik-Rawat/Deep-Learning-Powered-Sentiment-Analysis-API](https://github.com/Hardik-Rawat/Deep-Learning-Powered-Sentiment-Analysis-API)
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.17-orange?logo=tensorflow&logoColor=white)
@@ -13,13 +13,13 @@ An end-to-end deep learning application that reads the emotion inside a sentence
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Moodline is a multi-class text emotion classifier that predicts one of six emotions — **sadness, joy, love, anger, fear, surprise** — from a sentence of free-form text, and returns a full confidence breakdown across all six classes.
 
 The project covers the complete pipeline: data preprocessing and tokenization, training and benchmarking multiple recurrent architectures (RNN, LSTM, GRU, Bidirectional GRU), serving the best model through a production FastAPI backend, and presenting results through a custom-built, animated web UI — no separate frontend framework, everything is served directly by FastAPI.
 
-## 🖼️ Live Results
+##  Live Results
 
 | Input | Detected | Confidence |
 |---|---|---|
@@ -39,7 +39,7 @@ The project covers the complete pipeline: data preprocessing and tokenization, t
 
 ---
 
-## 🧠 Model & Architecture
+##  Model & Architecture
 
 Trained and benchmarked on the [`dair-ai/emotion`](https://huggingface.co/datasets/dair-ai/emotion) dataset — 16,000 labeled English Twitter messages across six emotion classes, with a 15,213-word vocabulary after tokenization.
 
@@ -74,7 +74,7 @@ Dense(6, activation='softmax')
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -86,7 +86,7 @@ Dense(6, activation='softmax')
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. **Preprocessing** — incoming text is lowercased, apostrophes and special characters stripped, and whitespace normalized to match the training data's format.
 2. **Tokenization & Padding** — text is converted to a sequence of token IDs using the saved `Tokenizer`, then padded/truncated to a fixed length of 50.
@@ -130,7 +130,7 @@ The model and tokenizer are loaded once at startup using FastAPI's `lifespan` co
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -150,7 +150,7 @@ The model and tokenizer are loaded once at startup using FastAPI's `lifespan` co
 
 ---
 
-## 🚀 Setup & Run Locally
+##  Setup & Run Locally
 
 **1. Clone the repository**
 ```bash
@@ -177,7 +177,7 @@ http://127.0.0.1:8000
 
 ---
 
-## ☁️ Deployment
+## Deployment
 
 Live on **[Render](https://render.com)**: [deep-learning-powered-sentiment-analysis.onrender.com](https://deep-learning-powered-sentiment-analysis.onrender.com)
 
@@ -188,7 +188,7 @@ Live on **[Render](https://render.com)**: [deep-learning-powered-sentiment-analy
 
 ---
 
-## 📈 Possible Improvements
+##  Possible Improvements
 
 - Swap in a pretrained transformer (e.g., DistilBERT) for higher accuracy on nuanced/mixed emotions
 - Add multi-language support
@@ -197,13 +197,14 @@ Live on **[Render](https://render.com)**: [deep-learning-powered-sentiment-analy
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 Dataset: [`dair-ai/emotion`](https://huggingface.co/datasets/dair-ai/emotion) (Saravia et al., EMNLP 2018 — CARER: Contextualized Affect Representations for Emotion Recognition)
 
 ---
 
-## 👤 Author
+##  Author
+Hardik Rawat
 
 **Hardik Rawat**
 B.Tech, Computer Science & Engineering (Data Science) — Manipal Institute of Technology, Bengaluru
